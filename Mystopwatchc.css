@@ -1,0 +1,72 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* background: url(https://images.pexels.com/photos/1095602/pexels-photo-1095602.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+    /* background: url(https://images.pexels.com/photos/11397574/pexels-photo-11397574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+    /* background: url(https://www.vecteezy.com/photo/32244301-an-antique-pocket-watch-with-a-chain-ai-generated); */
+    background: url(https://images.pexels.com/photos/1178684/pexels-photo-1178684.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.stopwatch {
+    text-align: center;
+    background-color: transparent;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(12, 37, 221, 0.626);
+}
+
+h1 {
+    font-size: 150px;
+    margin-bottom: 100px;
+    padding: 10px 30px;
+    margin: 8px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+
+.h1:hover{
+    opacity: 0.8;
+}
+
+.buttons button {
+    font-size: 50px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #10cc26;
+    color: white;
+}
+
+.buttons button:hover {
+    background-color: #72d27d;
+}
+
+/* rgb(153, 225, 133) */
+
+.stopwatch #stop {
+    background-color:red;
+}
+
+#stop:hover {
+    background-color:rgb(200, 87, 87);
+}
+
+
+
+#reset {
+    background-color: #3f507e;
+}
+
+#reset:hover {
+    background-color: #6686b6;
+}
+
+
